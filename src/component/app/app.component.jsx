@@ -1,9 +1,16 @@
 import React from "react"
+import "./app.style.css"
 
 const App = () => {
     return (
         <div className="app">
-            <h1>Glass Effect</h1>
+            <main>
+                <section className="glass">
+                    <h1>Aici</h1>
+                </section>
+            </main>
+            <div className="circle1"></div>
+            <div className="circle2"></div>
         </div>
     )
 }
